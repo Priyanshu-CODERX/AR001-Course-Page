@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -127,7 +128,7 @@ a {
     align-items: center;
     padding: 20px;
     margin-top: 40px;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .hero .left {
@@ -177,3 +178,69 @@ a {
 }
 
 /* Hero Ends */
+
+/* Syllabus Starts */
+
+.syllabus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.syllabus .syll ul li{
+    font-size: 20px;
+    list-style: circle;
+    margin-left: 30px;
+}
+
+.syllabus .syll ul p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .syllabus .syll ul li {
+        font-size: 12px;
+    }
+    .syllabus .syll ul p {
+        font-size: 15px;
+    }
+}
+
+/* Syllabus Ends */
+
+/* Footer Start */
+.foot .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.foot {
+    padding: 30px;
+    background-color: #212121;
+    margin-top: 20px;
+}
+
+.foot .info p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.foot .info p a{
+    color: #fc4445;
+}
+
+@media only screen and (max-width: 768px) {
+    .foot {
+        padding: 20px;
+    }
+
+    .foot .info p {
+        font-size: 10px;
+    }
+}
+/* Footer Ends */
