@@ -122,100 +122,51 @@ a {
 
 /* Hero Starts */
 
-.hero{
+.hero {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin-top: 40px;
-    /* height: 80vh; */
+    margin-top: 100px;
 }
 
-.hero .left {
-    padding: 20px;
-    text-align: center;
-    width: 100%;
+.hero .img img{
+    width: 500px;
 }
 
-.hero .left h1{
-    color: #212121;
-    font-size: 40px;
-}
-
-.hero .left p{
+.hero .context p {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
-.hero .left a{
+.hero .context a{
+    display: flex;
     font-size: 20px;
     background-color: #fc4445;
     /* border: 2px solid #212121; */
     padding: 10px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
+    align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
-    .hero{
-        flex-direction: column;
-    }
+.hero .context a img{
+    width: 40px;
+    margin-right: 10px;
+}
 
-    .hero .hl, .hero .right{
-        display: none;
-    }
-
-    .hero .left h1{
-        font-size: 20px;
-    }
-    .hero .left p{
-        font-size: 15px;
-    }
-    .hero .left a{
-        font-size: 15px;
-    }
+.hero .context {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 
 /* Hero Ends */
 
-/* Syllabus Starts */
+/* Footer Starts */
 
-.syllabus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.syllabus .syll ul li{
-    font-size: 20px;
-    list-style: circle;
-    margin-left: 30px;
-}
-
-.syllabus .syll ul p {
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-
-.syllabus .syll ul li a{
-    color: #212121;
-}
-
-@media only screen and (max-width: 768px) {
-    .syllabus .syll ul li {
-        font-size: 12px;
-    }
-    .syllabus .syll ul p {
-        font-size: 15px;
-    }
-}
-
-/* Syllabus Ends */
-
-/* Footer Start */
 .foot .info{
     display: flex;
     justify-content: center;
@@ -238,7 +189,25 @@ a {
     color: #fc4445;
 }
 
+/* Footer Ends */
+
+
 @media only screen and (max-width: 768px) {
+
+    .hero .img img{
+        width: 200px;
+    }
+    
+    .hero .context p {
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+    .hero .context a{
+        font-size: 10px;
+        padding: 10px;
+    }
+
     .foot {
         padding: 20px;
     }
@@ -247,4 +216,3 @@ a {
         font-size: 10px;
     }
 }
-/* Footer Ends */
