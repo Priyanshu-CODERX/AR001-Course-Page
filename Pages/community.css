@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin-bottom: 50px;
+}
+
 .header{
     border-bottom: 1px solid #E2E8F0;
 }
@@ -124,19 +128,21 @@ a {
 
 .hero {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
 
 .hero .img img{
     width: 500px;
+    margin: 20px;
 }
 
 .hero .context p {
     font-size: 20px;
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
 }
 
 .hero .context a{
@@ -167,6 +173,14 @@ a {
 
 /* Footer Starts */
 
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
 .foot .info{
     display: flex;
     justify-content: center;
@@ -193,6 +207,10 @@ a {
 
 
 @media only screen and (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+    }
 
     .hero .img img{
         width: 200px;
