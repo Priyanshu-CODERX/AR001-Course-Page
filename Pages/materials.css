@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin-bottom: 50px;
+}
+
 .header{
     border-bottom: 1px solid #E2E8F0;
 }
@@ -186,6 +190,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    /* height: 100vh; */
 }
 
 .syllabus .syll ul li{
@@ -219,7 +224,7 @@ a {
 
 footer {
     position: absolute;
-    bottom: 0px;
+    bottom: -100vh;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
