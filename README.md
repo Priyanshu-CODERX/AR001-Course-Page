@@ -83,5 +83,5 @@ The only Prerequisites for the course is to have an active internet connection a
 	* Face Mesh
 	* Head Occluder
 
-* ** Bonus Module 7: Project**
+* **Bonus Module 7: Project**
 	* 3D AR Filter
