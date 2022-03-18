@@ -18,7 +18,7 @@ If you like the content of the channel and want to make a carrer out of Extended
 * You would get the in depth knowledge of the working of Marker Based Augmented Reality Applications
 
 ## Prerequisites
-The only Prerequisites for the course is to have an active internet connection and a computer system with atleast 4gb ram, you don't need to have any technical knowledge to attend this course because we will be everything from scratch.
+The only Prerequisites for the course is to have an active internet connection and a computer system with atleast 4gb ram, you don't need to have any technical knowledge to attend this course because we will be learning everything from scratch.
 
 ## Syllabus
 * **Module 1: Introduction to Extended Reality**
